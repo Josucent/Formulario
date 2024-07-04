@@ -1,0 +1,94 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Playwrite ES", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+*::selection {
+  background-color: #78ffd6;
+}
+
+body {
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  margin-top: 15vh;
+}
+
+.registro {
+  box-shadow: black 8px 10px 20px ;
+  border: white 2px solid;
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+  padding: 50px;
+}
+
+p {
+  margin-top: 8px;
+  font-size: 12px;
+  text-align: center;
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.envio {
+  cursor: pointer;
+  margin: 40px 0 0 85px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(to right, #fdc830, #f37335);
+}
+
+.envio:hover {
+  animation: tamaño 0.2s;
+  width: 140px;
+  height: 70px;
+  margin: 50px 0 0 75px;
+}
+
+@keyframes tamaño {
+  0% {
+    margin: 50px 0 0 85px;
+    width: 120px;
+    height: 50px;
+  }
+
+  100% {
+    width: 140px;
+    height: 70px;
+    margin: 50px 0 0 75px;
+  }
+}
+
+i {
+  width: 20px;
+}
+
+input {
+  background: #e6ff78c4;
+  border: white 1px solid;
+  width: 275px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
